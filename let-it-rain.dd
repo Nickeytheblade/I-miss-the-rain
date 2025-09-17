@@ -1,0 +1,9 @@
+REM Open Edge to the URL via Windows Run dialog, then fullscreen
+DELAY 1000
+GUI r
+DELAY 500
+STRING microsoft-edge:https://rezmason.github.io/matrix/
+ENTER
+DELAY 2500
+REM Give the page time to load, then toggle fullscreen
+F11
